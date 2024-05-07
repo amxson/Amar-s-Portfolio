@@ -4,13 +4,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Amar's portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        
+        <link rel="icon" href="dist/img/profile.png">
         <!-- Tailwind CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <style type="text/tailwindcss">
+            body {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .hamburger-line {
+                @apply w-[20px] h-[2px] my-1 block bg-white;
+            }
+
+            .hamburger-active > span:nth-child(1) {
+                @apply rotate-45;
+            }
+
+            .hamburger-active > span:nth-child(2) {
+                @apply scale-0;
+            }
+
+            .hamburger-active > span:nth-child(3) {
+                @apply -rotate-45;
+            }
+
+        </style>
     </head>
     <body>
         <header>
