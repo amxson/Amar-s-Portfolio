@@ -261,7 +261,7 @@ header{
     }
 }
 
-/*about*/
+/*About*/
 .about{
     padding: 100px 15px;
     background: var(--sec-bg-color);
@@ -381,7 +381,6 @@ h2 span{
         left: 0;
     }
 }
-
 /*portfolio*/
 
 #portfolio {
@@ -542,4 +541,46 @@ h2 span{
 .btn:hover{
     transform: scale(1.05);
     box-shadow: 0 0 50px var(--main-color);
+}
+/*footer*/
+footer{
+    padding-bottom: 1.6rem;
+    background-color: var(--sec-bg-color);
+}
+.icon {
+    width: 100%;
+    padding-top: 1.6rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_1 {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.1rem;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    border: 1px solid rgb(203 213 225);
+    transition-property: border, background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.icon_1:hover {
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: white;
+}
+.foot{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.last{
+    text-align: center;
 }
