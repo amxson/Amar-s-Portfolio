@@ -472,3 +472,28 @@ h2 span{
         color: var(--main-color);
         font-size: 1.9rem;
 }
+@media (min-width: 1024px) {
+    .port_name {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+}
+@media (min-width: 1280px) {
+    .project {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 768px) {
+    .project_1 {
+        width: 32%;
+    }
+}
+@media (min-width: 1024px) {
+    .card {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        padding-top: 3.2rem;
+    }
+}
